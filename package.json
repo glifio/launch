@@ -7,6 +7,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@glif/filecoin-rpc-client": "^1.0.0-beta.1",
     "next": "latest",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
