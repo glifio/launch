@@ -7,8 +7,44 @@
 /* Stop purging. */
 
 /* Write your own custom component styles here */
-.btn-blue {
-  @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
+* {
+  box-sizing: border-box;
+  font-size: 1rem;
+  font-family: 'RT-Alias-Grotesk', 'system-ui', 'Segoe UI', 'Roboto', Helvetica;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'RT-Alias-Medium';
+  src: url('/static/fonts/RTAliasMedium-Light.woff2');
+  font-weight: 200;
+}
+@font-face {
+  font-family: 'RT-Alias-Medium';
+  src: url('/static/fonts/RTAliasMedium-Regular.woff2');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'RT-Alias-Medium';
+  src: url('/static/fonts/RTAliasMedium-Bold.woff2');
+  font-weight: 700;
+}
+/* Alias Grotesk */
+@font-face {
+  font-family: 'RT-Alias-Grotesk';
+  src: url('/static/fonts/RTAliasGrotesk-Light.woff2');
+  font-weight: 200;
+}
+@font-face {
+  font-family: 'RT-Alias-Grotesk';
+  src: url('/static/fonts/RTAliasGrotesk-Regular.woff2');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'RT-Alias-Grotesk';
+  src: url('/static/fonts/RTAliasGrotesk-Bold.woff2');
+  font-weight: 700;
 }
 
 /* Start purging... */
