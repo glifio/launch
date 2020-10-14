@@ -39,8 +39,12 @@ export default function IndexPage() {
       {chainHeight && (
         <div className='py-20'>
           <h1
-            className='text-5xl text-center text-accent-1'
-            style={{ color: 'white', fontFamily: 'RT-Alias-Medium' }}
+            className='text-center text-accent-1'
+            style={{
+              color: 'white',
+              fontFamily: 'RT-Alias-Medium',
+              fontSize: '5rem',
+            }}
             // class='animate animate-1'
           >
             Filecoin Mainnet launches on block 148,888
@@ -54,11 +58,12 @@ export default function IndexPage() {
           </h1>
 
           <h1
-            className='text-5xl text-center text-accent-1'
+            className='text-center text-accent-1'
             style={{
               color: 'white',
               fontFamily: 'RT-Alias-Medium',
               fontWeight: '700',
+              fontSize: '5rem',
             }}
           >
             {mainnetHeight - chainHeight} blocks to go
